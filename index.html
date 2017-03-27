@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Choo Choo HW 7!</title>
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	crossorigin="anonymous"></script>
+  	<link rel="stylesheet" href="assets/css/style.css">
+  	<script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
+  	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+	<div class="header">
+		<h1>Choo Choo! It's Train Time</h1>
+	</div> <!--End Header -->
+	<div class="table_container">
+		<div class="table_header">
+		<h2>Train Schedule</h2>
+		</div> <!--end table_header -->
+		<table id="train_table">
+			<tr>
+				<th>Train Name</th>
+				<th>Destination</th>
+				<th>Frequency(min)</th>
+				<th>Next Arrival</th>
+				<th>Minutes Away</th>
+			</tr>
+			<tbody>
+			</tbody>
+		</table>
+	</div> <!--end Table Container -->
+	<div class ="form_header">
+	<h2>Add a Train!</h2>
+	</div>
+	<div class= "form_container">
+		<form>
+			Train Name<br>
+			<input type="text" name="train_name" placeholder="enter train name" id="train_name">
+			<br>
+			Destination<br>
+			<input type="text" name="destination" placeholder="enter destination" id="destination">
+			<br>
+			First Train Time (Military Time HH:MM)<br>
+			<input type="text" name="first_train_time" placeholder="Enter first train time in military time HH:MM" id="first_train_time">
+			<br>
+			Frequency<br>
+			<input type="text" name="frequency" placeholder="Frequency (min)" id="frequency">
+			<br>
+			<input type="submit" name="submit" id="submit_time">
+		</form>
+	</div><!-- end form container -->
+</div> <!--End Wrapper -->
+
+
+
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>

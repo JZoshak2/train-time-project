@@ -1,0 +1,35 @@
+.header {
+	text-align: center;
+	background-color: pink;
+	color: white;
+	padding: 15px;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+}
+
+.table_header {
+	background-color: #ADD8E6;
+	color: white;
+	padding: 5px;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: Hevetica, sans-serif;
+}
+
+td {
+	padding-left: 55px;
+}
+
+th {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+input {
+	width: 200px;
+	margin: 10px 0;
+}
